@@ -14,3 +14,19 @@ galaxy_info:
     - license
     - usage
     - mailer
+  platforms:
+    - name: Alpine
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: MacOSX
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Windows
+      versions:
+        - all
