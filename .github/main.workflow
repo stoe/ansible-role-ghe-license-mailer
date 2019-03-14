@@ -4,14 +4,14 @@ workflow "Lint Ansible Role on Push" {
 }
 
 action "Lint Ansible Role Meta" {
-  uses = "ansible/ansible-lint/.github/action@master"
+  uses = "ansible/ansible-lint-action@master"
   env = {
     ACTION_PLAYBOOK_NAME = "meta/main.yml"
   }
 }
 
 action "Lint Ansible Role Tasks" {
-  uses = "ansible/ansible-lint/.github/action@master"
+  uses = "ansible/ansible-lint-action@master"
   env = {
     ACTION_PLAYBOOK_NAME = "tasks/main.yml"
   }
