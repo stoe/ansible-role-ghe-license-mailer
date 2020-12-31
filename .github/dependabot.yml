@@ -7,16 +7,3 @@ updates:
       day: 'saturday'
       time: '09:00'
       timezone: 'Europe/Berlin'
-
-  - package-ecosystem: 'terraform'
-    directory: '/'
-    schedule:
-      interval: 'weekly'
-      day: 'saturday'
-      time: '09:00'
-      timezone: 'Europe/Berlin'
-    commit-message:
-      prefix: 'tf'
-      include: 'scope'
-    labels:
-      - 'dependency :robot:'
